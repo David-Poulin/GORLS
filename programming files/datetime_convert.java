@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 public class datetime_convert {
     public static void main(String[] args) {
         //assigning data to a string object
-        dateStr = "2022-03-17 10:45:30";
+        String dateStr = "2022-03-17 10:45:30";
 
         //creating a formatting object to format our date string
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
