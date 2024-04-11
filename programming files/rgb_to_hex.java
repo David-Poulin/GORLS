@@ -1,10 +1,11 @@
 public class rgb_to_hex {
     public static void main(String[] args) {
+       int r,g,b;
         r = 255;
         g = 127;
         b = 0;
         String hexColor = rgbToHex(r, g, b);
-        println("RGB color (" + r + ", " + g + ", " + b + ") = " + hexColor);
+        println("RGB color (" + r + ", " + g + ", " + b + ") = " , hexColor);
     }
 
     public static String rgbToHex(int r, int g, int b) {
