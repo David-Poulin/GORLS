@@ -11,7 +11,7 @@ public class datetime_convert {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
         //parsing date string into a date object with the format that we specified
-        LocalDateTime dateObj = LocalDateTime.parse(dateStr, formatte);
+        LocalDateTime dateObj = LocalDateTime.parse(dateStr, formatter);
 
         //converting date object into formatted date in a string
         formattedDate = dateObj.format(DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss"));
