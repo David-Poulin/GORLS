@@ -7,6 +7,7 @@ public class remove_duplicates {
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
         List<Integer> uniqueArr = new ArrayList<>();
         for (int i = 1; i < arr.size(); i++) {
+            // issue the j should be a i!
             if (!uniqueArr.contains(arr.get(j))) {
                 uniqueArr.add(arr.get(i));
             } else {
