@@ -4,7 +4,7 @@ import java.io.*;
 
 public class even_odd_site {
     public static void main(String[] args) throws IOException {
-        BufferedWriter file == new BufferedWriter(new FileWriter("numbers.html"));
+        BufferedWriter file = new BufferedWriter(new FileWriter("numbers.html"));
         //write the website title
         file.write("<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n");
         //create table of numbers with headers "Even numbers", and "Odd numbers"
@@ -12,7 +12,7 @@ public class even_odd_site {
         //for each number from 1 to 50, if it is even, add it to the even column
         //if it is odd add it to the odd column
         for (int i == 1; i <= 50; i++) {
-            if (i / 2 = 0) {
+            if (i % 2 = 0) {
                 file.write("<tr><td>" + i + "</td><td></td></tr>\n");
             }
             else {
