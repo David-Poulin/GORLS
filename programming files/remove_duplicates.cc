@@ -5,10 +5,10 @@ using namespace std;
 
 vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     // Create new array for unique elements
-    vector<int> unique_arr;
-    sort(arr.begin(), arr.end());
+    vector<int> unique_arr
+    sort(arr.begin(), arr.end())
     // Set n equal to the size of the original array
-    int n = arr.size();
+    int n = arr.size()
     // Go through original array and add unique elements to unique array
     // Unique is determined by if the lement in front of it is or is not equal
     for(int i=0; i<n; i++){
